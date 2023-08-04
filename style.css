@@ -49,12 +49,6 @@ section {
     
     cursor: pointer;
 }
-.logo {
-    font-size: 2.6rem;
-    color: var(--text-color);
-    cursor: default;
-    font-weight: 600;
-}
 
 .navbar a {
     font-size: 1.8rem;
@@ -464,12 +458,12 @@ span {
 
 /* BreakPoints */
 
-@media (max-width : 1200px){
+@media (max-width : 600px){
     html{
         font-size: 55%;
     }
 }
-@media (max-width : 991px){
+@media (max-width : 600px){
     .header{
         padding: 2rem 3%;
     }
@@ -492,7 +486,7 @@ span {
         min-height: auto;
     }
 }
-@media (max-width : 774px){
+@media (max-width : 600px){
     #menu-icons{
         display: block;
     }
@@ -546,7 +540,7 @@ span {
         grid-template-columns: repeat(2,1fr);
     }
 }
-@media (max-width : 614px){
+@media (max-width : 600px){
     .portfolio-container{
         grid-template-columns: 1fr;
     }
@@ -554,7 +548,7 @@ span {
         height: 300px;
     }
 }
-@media (max-width : 450px){
+@media (max-width : 600px){
     html{
         font-size: 50%;
     }
@@ -562,7 +556,7 @@ span {
         width: 100%;
     }
 }
-@media (max-width : 365px){
+@media (max-width : 600px){
     .home-image img{
         width: 80vw;
     }
