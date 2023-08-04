@@ -8,7 +8,7 @@
     box-sizing: border-box;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
     
     color: white;
 }
@@ -161,6 +161,7 @@ span {
     letter-spacing: 0.1rem;
     transition: .5s ease;
     margin: 2rem;
+    color: #e84104;
 }
 .btn:hover{
     box-shadow: none;
@@ -216,6 +217,7 @@ span {
     cursor: pointer;
     position: relative;
 }
+
 
 .tab-links::after{
     content: '';
@@ -349,6 +351,18 @@ span {
     font-size: 1.36rem;
     margin: .3rem 0 1;
 }
+.home-content p{
+    font-size: 2.5rem;
+    padding-right: 50px;
+    width: 70%;
+    
+    
+   
+}
+.about-content p{
+    font-size: 2rem;
+    font-weight: 0;
+}
 
 .portfolio-layer a{
     display: inline-flex;
@@ -406,6 +420,24 @@ span {
     
     background-color: rgb(246, 207, 155);
 }
+.home-content h2{
+    font-size: 5rem;
+    font-weight: 100;
+}
+.home-content h1{
+    font-size: 7rem;
+    font-weight: 100;
+}
+.about-content h2{
+    font-size: 5rem;
+   
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 15px 0;
+    font-size: 2rem;
+    font-weight: 300;
+}
 
 /* Footer */
 .footer{
@@ -455,46 +487,64 @@ span {
     font-size: 2.6rem;
     color: var(--second-bg-color);
 }
+.about-content h4{
+    font-size: 5rem;
+    
+}
+.about-content h2{
+    font-size: 5rem;
+    
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 15px 0;
+    font-size: 2rem;
+    font-weight: 300;
+    width: 100%;
+}
+
+.tab-contents ul li span{
+    color: var(--main-color);
+    font-size: 3.5rem;
+    width: 100%;
+}
 
 /* BreakPoints */
 
-@media (max-width : 600px){
+@media screen (max-width : 600px){
     html{
-        font-size: 55%;
+        font-size: 100px;
     }
+   
 }
-@media (max-width : 600px){
-    .header{
-        padding: 2rem 3%;
-    }
+@media(max-width : 600px){
+   
     section{
         padding: 10rem 3% 2rem;
     }
     .footer{
-        padding: 2rem 3%;
+        padding: 3rem 3%;
+        padding left: 100px;
     }
-    .skills h2{
-        margin-bottom: 7rem;
-    }
-    .portfolio h2{
-        margin-bottom: 7rem;
-    }
+   
     .portfolio-box img{
-        height: 200px;
+        height: 1000px;
     } 
     .contact{
-        min-height: auto;
+        min-height: 5px;
+        min-width: 10px;
     }
 }
-@media (max-width : 600px){
+@media(max-width : 600px){
     #menu-icons{
         display: block;
     }
     .navbar{
         position: absolute;
         width: 100%;
-        top: 100%;
-        left: 0;
+        top: 75px;
+        right: 0;
+        z-index: 2;
         padding: 1rem 3%;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0,0,0,.2);
@@ -511,46 +561,115 @@ span {
     }
     .home{
         flex-direction: column;
+        padding-right: 200px;
     }
-    .home-content h3{
-        font-size: 2.6rem;
+    .home-content h2{
+        font-size: 9rem;
     }
     .home-content h1{
-        font-size: 5rem;
+        font-size: 11rem;
     } 
     .home-image img{
-        width: 60vw;
-        margin-top: 4rem;
+        width: 400px;
+        height: 450px;
+        margin-top: 1.5rem;
+        margin-right: -430px;
+        width: 250%;
+       
+       
+        
+    }
+    .home-content p{
+        font-size: 7rem;
+        padding-right: 50px;
+        width: 180%;
+        
+        
+       
     }
     .about{
-        flex-direction: column-reverse;
+        flex-direction: row;
     }
-    .about-img img{
-        width: 60vw;
-        margin-top: 4rem;
+    .contact{
+        margin-left:250px ;
     }
-    .skills h2{
-        margin-bottom: 3rem;
+    .input-box{
+        width: 100%;
+        margin-left: 170px;
+        
+        
+    }
+    .contact h2{
+        font-size: 5rem;
+        
+        margin-left: 63%;
+        margin-left: 170px;
+        width: 250%;
+    }
+    .message{
+        width: 100%;
+        margin-left: 170px;
+    }
+    .btn{
+        margin-left: 63%;
+        margin-left: 230px;
+        color:#e84104;
+    }
+    .btn1{
+        margin-left: 100px;
+        font-size: 2rem;
+    }
+    
+    .about-content h3{
+        font-size: 5rem;
+        margin-left: 190px;
+    }
+    .about-content p{
+        font-size: 5rem;
+        width: 140%;
+    }
+    .web{
+        font-size: 10rem;
+    }
+    .about-content h2{
+        font-size: 8rem;
+        margin-left: 100px;
+    }
+    .tab-contents ul li{
+        list-style: none;
+        margin: 15px 0;
+        font-size: 3rem;
+        font-weight: 300;
+        width: 100%;
+    }
+    
+    .tab-contents ul li span{
+        color: var(--main-color);
+        font-size: 6.1rem;
+        width: 100%;
+    }
+    
+    .tab-contents{
+        display: none;
+    }
+    
+    .tab-contents.active-tab{
+        display: block;
     }
 
-    .portfolio h2{
-        margin-bottom: 7rem;
-    }
-    .portfolio-container{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-@media (max-width : 600px){
-    .portfolio-container{
-        grid-template-columns: 1fr;
-    }
-    .portfolio-box img{
-        height: 300px;
-    }
 }
 @media (max-width : 600px){
     html{
-        font-size: 50%;
+        font-size: 70%;
+        
+        
+    }
+    body{
+        background-attachment: fixed;
+        background-size: 100% 100%;
+       
+        width: 600px;
+        height: 100vh;
     }
     .contact form .input-box input{
         width: 100%;
@@ -563,13 +682,19 @@ span {
     .about-img img{
         width: 80vw;
     }
+    .about-content h4{
+        font-size: 7.5rem;
+        margin-left: 450px;
+    }
     .footer{
         flex-direction: column-reverse;
         width: 123%;
+        margin-left:250px ;
     }
     .footer p{
         text-align: center;
         margin-top: 2rem;
+        font-size: 2rem;
     }
 }
 h1 span { 
