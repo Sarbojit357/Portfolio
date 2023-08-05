@@ -392,6 +392,9 @@ span {
     text-align: center;
     margin-bottom: 3rem;
 }
+.message{
+    margin-bottom: -15px;
+}
 .contact form .input-box{
     display: flex;
     justify-content: space-between;
@@ -541,14 +544,16 @@ span {
 }
 .footer-text{
     background-repeat: no-repeat;
+    margin-bottom: -300px;
 }
 .footer{
     background-repeat: no-repeat;
-    margin-bottom: -300px;
-    margin-top: -150px;
+    margin-bottom: -500px;
+    margin-top: -250px;
 }
 .footer p{
-    margin-bottom:10px;
+    margin-bottom:-10px;
+    background-repeat: no-repeat;
 }
 .about-content h4{
     font-size: 5rem;
@@ -571,6 +576,9 @@ span {
     color: var(--main-color);
     font-size: 3.5rem;
     width: 100%;
+}
+.message{
+    margin-bottom: -15px;
 }
 
 /* BreakPoints */
