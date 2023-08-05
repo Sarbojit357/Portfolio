@@ -95,7 +95,7 @@ section {
     border-radius: 3rem;
 
     margin-left: 1rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
     
 }
 
@@ -161,7 +161,7 @@ span {
     letter-spacing: 0.1rem;
     transition: .5s ease;
     margin: 2rem;
-    color: #e84104;
+    color: #120300;
 }
 .btn:hover{
     box-shadow: none;
@@ -404,7 +404,7 @@ span {
     padding: 1.5rem;
     font-size: 1.6rem;
     color: black;
-    background-color: rgb(246, 207, 155);
+    background-color: rgb(242, 213, 176);
     border-radius: .8rem;
     margin: .7rem 0;
 }
@@ -421,12 +421,53 @@ span {
     background-color: rgb(246, 207, 155);
 }
 .home-content h2{
-    font-size: 5rem;
+    font-size: 40px;
+    line-height: 30px;
     font-weight: 100;
+    margin-left: -320x;
+    margin-bottom: 120px;
+    padding-right: -490px;
+    width: 77%;
+    
 }
 .home-content h1{
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 100;
+    position: absolute;
+    margin-bottom: 150px;
+    padding-right: -500px;
+    width: 200%;
+    margin-left: -337px;
+    margin-top: -100px;
+}
+.home-content{
+    gap: 5rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    padding-bottom: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    color: white;
+    /* width: 100%; */
+}
+.home-content p{
+    padding-left: 100px;
+    margin-top: -50px;
+   
+    font-size: 2rem;
+    font-weight: 0;
+    margin-bottom: 100px;
+}
+.social-media{
+    margin-top: -90px;
+    margin-right: 570px;
 }
 .about-content h2{
     font-size: 5rem;
@@ -438,7 +479,15 @@ span {
     font-size: 2rem;
     font-weight: 300;
 }
-
+.home-image img{
+    margin-bottom: 370px;
+}
+.about-content h2{
+    margin-top: -270px;
+}
+.about-content h3{
+    margin-top: 15px;
+}
 /* Footer */
 .footer{
     display: flex;
@@ -447,6 +496,7 @@ span {
     flex-wrap: wrap;
     padding: 2rem 9%;
     background: var(--second-bg-color);
+    background-repeat: no-repeat;
 }
 .footer-text a i{
     display: inline-flex;
@@ -487,6 +537,17 @@ span {
     font-size: 2.6rem;
     color: var(--second-bg-color);
 }
+.footer-text{
+    background-repeat: no-repeat;
+}
+.footer{
+    background-repeat: no-repeat;
+    margin-bottom: -300px;
+    margin-top: -150px;
+}
+.footer p{
+    margin-bottom:10px;
+}
 .about-content h4{
     font-size: 5rem;
     
@@ -495,6 +556,7 @@ span {
     font-size: 5rem;
     
 }
+
 .tab-contents ul li{
     list-style: none;
     margin: 15px 0;
