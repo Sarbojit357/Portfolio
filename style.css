@@ -430,7 +430,7 @@ span {
     line-height: 30px;
     font-weight: 100;
     margin-left: -320x;
-    margin-bottom: 270px;
+    margin-bottom: 400px;
     padding-right: -490px;
     
     width: 77%;
@@ -440,11 +440,11 @@ span {
     font-size: 5rem;
     font-weight: 100;
     position: absolute;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     padding-right: -500px;
     width: 200%;
     margin-left: -337px;
-    margin-top: -260px;
+    margin-top: -390px;
 }
 .home-content{
     gap: 5rem;
@@ -465,15 +465,17 @@ span {
 }
 .home-content p{
     padding-left: 100px;
-    margin-top: -210px;
+    margin-top: -360px;
+    margin-bottom: -50px;
    
     font-size: 2rem;
     font-weight: 0;
    
 }
 .social-media{
-    margin-top: -100px;
+    margin-bottom: 5px;
     margin-right: 570px;
+    margin-top: -230px;
     
 }
 .about-content h2{
